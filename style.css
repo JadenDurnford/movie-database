@@ -1,0 +1,95 @@
+body {
+  background-color: #2f2f2f;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+h1 {
+  text-align: center;
+  font-family: "Noto Sans JP";
+  font-size: 40px;
+  padding-top: 75px;
+}
+#search {
+  font-family: "Noto Sans JP";
+  font-size: 20px;
+  display: block;
+  margin-left: 35vw;
+  width: 30vw;
+  background-color: #ffffff;
+  border: 0px;
+  outline: 0px;
+  height: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  border-radius: 7px;
+  position: relative;
+}
+.wrapper {
+  position: relative;
+  display: flex;
+}
+.btn {
+  display: block;
+  margin: auto;
+  font-family: "Noto Sans JP";
+  font-size: 20px;
+  border: none;
+  outline: 0px;
+  color: white;
+  background-color: teal;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 35vw;
+  height: 60px;
+  width: 60px;
+  border-radius: 0px 7px 7px 0px;
+}
+#movieName,
+#movieYear,
+#separater,
+#movieLength,
+#separater2 {
+  font-size: 30px;
+  font-family: "Noto Sans JP";
+}
+#description {
+  font-size: 18px;
+  font-family: "Noto Sans JP";
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding-left: 10px;
+}
+#moviePoster {
+  max-height: 38vw;
+  max-width: 38vw;
+  justify-content: center;
+  align-items: center;
+  padding-left: 500px;
+}
+#nameWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lengthWrapper {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+#movieYear,
+#movieLength {
+  padding-left: 10px;
+}
+
+#imgwrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 65%;
+}
